@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are being store as strings, so when it calculates result, instead of adding the two values, it's concatenating the 2 strings.
+2. There are a few ways we can fix the bugs. In the HTML, we can specify the input type to be numbers so JavaScript can recieve the inputs as number. Another way is to cast the variables num1 and num2 to be numbers so we can sum them.
